@@ -1,3 +1,4 @@
+1.html
 tag
 <strong></strong> : 진하게
 <u></u> : 밑줄
@@ -20,3 +21,41 @@ tag
 사용법 : <a href="http~"> : hypertext reference
 새로운창에서 열고싶다? : <a href="http~" target="_blank"> 
 주석 달고싶다? <a href="http~" title="">
+
+
+
+2.css
+웹페이지에 css삽입하는법
+1. <style></style> : html 태그의 문법을 css문법으로 해석해라
+2. style속성을 쓴다 style="color:red"
+
+property에 관한 내용은 그때 그때 검색해보자
+ex) font-size:45px;
+    text-align:center;
+
+===용어 정리===
+border : 테두리
+border - width : 테두리 두께
+border - color : 테두리 컬러
+border - style : 테두리의 스타일 ex) 단선인지 실선인지
+
+block level element : 화면 전체를 쓰는 태그
+inline element :  자기 자신의 크기만큼 갖는 태그
+
+display : 속성 ex)inline, block
+display : none; 태그를 안 보이게 할 수 있음.
+
+padding : 콘텐츠와 테두리 사이의 여백
+margin : 테두리와 테두리사이의 간격
+
+===중복 된 것을 압축===
+1.
+h1,a{
+
+}
+
+// ' , '를 통해 압축 가능 //
+
+2.
+ border : 5px solid red;
+ 
