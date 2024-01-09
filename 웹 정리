@@ -1,0 +1,22 @@
+tag
+<strong></strong> : 진하게
+<u></u> : 밑줄
+<h1>~<h6> : 제목을 나타내는 태그 
+<br> : 줄바꿈 
+-> <br></br>로 감쌀 필요가 없음 줄바꿈의 시각적 의미만을 갖고있기때문 
+<p></p> : 문단 나누기
+<img> : 이미지 삽입
+-> <img src="coding.jpg" width = "100%">
+<li> : 목차생성 
+----> <ul> : 목차를 한단락으로 구분해주는 li의 부모태그 {unordered list}
+----> <ol> : <li>에 해당되는 내역 넘버링 자동으로 해주는 부모태그 <ul>의 연장 {ordered list}
+<title></title> : 웹 제목 설정
+<meta charset="utf-8"> : 한국말로 인코딩
+<body></body> : 본문태그 
+<head></head> : 바디를 설명하는 태그 like 제목,인코딩방법등..
+<html></html> : body와 head를 총괄하는 대장태그
+<!doctype html> : html태그 위에 관용적으로 이문서는 html이다를 나타내는 태그 작성
+<a></a> : achor(닻) 링크를 설정하는 태그 
+사용법 : <a href="http~"> : hypertext reference
+새로운창에서 열고싶다? : <a href="http~" target="_blank"> 
+주석 달고싶다? <a href="http~" title="">
