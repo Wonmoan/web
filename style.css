@@ -1,0 +1,55 @@
+
+body{
+    margin:0;
+}
+a {
+    color:black;
+
+    text-decoration: none;
+}
+#active{
+    color:red;
+}
+.saw{
+    color:gray;
+}
+
+h1{
+    font-size:45px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:20px;
+}
+ol{
+    border-right:10px solid gray;
+    width:100px;
+    margin:0;
+    padding:20px;
+    
+}
+#grid ol{
+    padding-left:50px ;
+}
+#grid p{
+    place-items: center;
+    display: grid;
+}
+#grid{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+
+}
+
+@media(max-width:730px){
+    #grid p{
+    
+    display: block;
+
+    }
+    ol{
+    border-right:none;
+    
+    
+}
+}
