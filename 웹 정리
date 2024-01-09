@@ -59,3 +59,29 @@ h1,a{
 2.
  border : 5px solid red;
  
+
+
+<div> :아무 의미없는 디자인을 위해 쓰이는 태그 
+= <span>
+두개의 태그를 나란히 배치하고 싶다면 그것을 감싸는 부모 태그가 필요
+
+그리드 :  레이아웃 짜는 최신 기법 
+: 분석 칸을 눌러 수치조하여 레이아웃 설
+id를 생성했다면 
+#해당id p{
+  ~~~~~
+}
+해당 id의 p태그에 대한 제어 
+
+
+미디어 쿼리 : 화면 크기에 따른 웹 요소들의 최적화 반응형 웹
+@media(min-width:800px) 
+div{
+    display:none;
+}
+=> min-width:800px == screen widt > 800px을 표현하기 위한 식  
+
+css내용: <style></style>로 감싸진 내용을
+style.css내용에 정리해서 링크로 불러와 모든html파일에 적용하는 방법
+이때 style.css에는 <style></style>로 감싸진 내용만을 기입해야댐 즉, 태그를 뺀 내용을 삽입
+<link rel="stylesheet" href="style.css">
